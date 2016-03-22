@@ -10,15 +10,33 @@
 
 }
 
-p {
+.clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-p:hover {
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }
 
 .fixed {
   position: static;
+}
+
+.highlight {
+  background-color: yellow;
+  border: 3px solid black;
+}
+
+p {
+  padding: 4px;
 }
