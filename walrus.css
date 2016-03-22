@@ -1,0 +1,24 @@
+#section1-hidden {
+  display: none;
+}
+
+#section2-hidden {
+  display: none;
+}
+
+#section2-showing {
+
+}
+
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.fixed {
+  position: static;
+}
